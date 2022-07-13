@@ -1,0 +1,25 @@
+{
+  "name": "substrate-connect-smoldot-node-cjs-esm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "smoldot:cjs": "node demo.cjs",
+    "smoldot:mjs": "node demo.mjs",
+    "subconn:cjs": "node sc.cjs",
+    "subconn:mjs": "node sc.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "connectest": "^0.1.12",
+    "smoldotest-light": "0.1.0",
+    "websocket": "^1.0.34"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.3",
+    "@types/websocket": "^1.0.5",
+    "typescript": "^4.7.4"
+  }
+}
